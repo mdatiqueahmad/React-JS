@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './componets/card'
+import Card from './componets/Card'
 
 
 const App = () => {
