@@ -10,3 +10,9 @@ html , body {
   width: 100%;
 
 }
+
+input , button{
+  padding: 50px 50px;
+  margin: 10px;
+  font-size: 55px;
+}
