@@ -1,0 +1,10 @@
+html , body {
+  height: 100%;
+  width: 100%;
+
+}
+button{
+  padding: 70px 100px;
+  font-size: 50px;
+  margin: 20px;
+}
