@@ -1,7 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 
-
-
 const App = () => {
 
  const [length, setLength] = useState(8)
