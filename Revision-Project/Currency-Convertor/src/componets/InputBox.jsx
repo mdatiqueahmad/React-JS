@@ -26,6 +26,11 @@ function InputBox({
                     placeholder="Amount"
                     disabled={amountDisable}
                     value={amount}
+                      onFocus={() => {
+                    if (amount === 0 || amount === "0") {
+                      onAmountChange("");
+                  }
+                   }}
                     onChange={(e) => {
                       onAmountChange && onAmountChange(Number(e.target.value)) 
                     }}
